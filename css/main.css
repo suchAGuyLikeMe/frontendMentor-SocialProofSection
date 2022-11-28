@@ -168,7 +168,6 @@ comment cards
     body {
         background-image: url(../img/bg-pattern-top-desktop.svg),
             url(../img/bg-pattern-bottom-desktop.svg);
-
         text-align: left;
         padding: 5rem;
     }
@@ -178,7 +177,7 @@ comment cards
         display: flex;
     }
 
-    main,
+    .info-section,
     aside {
         width: 50%;
     }
