@@ -104,11 +104,11 @@ aside {
     margin-top: 2rem;
 }
 
-.rating-list {
+ul {
     list-style-type: none;
 }
 
-.rating-item::before {
+li::before {
     content: "";
     display: block;
     width: 6rem;
@@ -118,7 +118,7 @@ aside {
     background-repeat: space;
 }
 
-.rating-item {
+li {
     background-color: var(--neutral-light-grayish-magenta);
     color: var(--primary-very-dark-magenta);
     border-radius: 0.5rem;
@@ -130,7 +130,7 @@ aside {
 comment cards
 ##################*/
 
-.comment-card {
+article {
     background-color: var(--primary-very-dark-magenta);
     border-radius: 0.5rem;
     margin: 2rem 0;
@@ -170,17 +170,17 @@ blockquote {
         padding: 5rem;
     }
 
-    .info-rating-section,
-    .comment-section {
+    main,
+    footer {
         display: flex;
     }
 
-    .info-section,
+    section,
     aside {
         width: 50%;
     }
 
-    .info-rating-section {
+    main {
         margin-left: 2em;
     }
 
@@ -201,12 +201,12 @@ blockquote {
     ratings
     ##################*/
 
-    .rating-item::before {
+    li::before {
         float: left;
         margin: 0 1.5rem 0;
     }
 
-    .rating-item {
+    li {
         max-width: 70%;
     }
 
@@ -214,7 +214,7 @@ blockquote {
     comment cards
     ##################*/
 
-    .comment-card {
+    article {
         margin: 2rem;
     }
 
