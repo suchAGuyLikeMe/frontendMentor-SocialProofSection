@@ -44,7 +44,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
+-   Solution URL: (https://www.frontendmentor.io/solutions/social-proof-section-U1FUKiOBPn)
 -   Live Site URL: (https://suchaguylikeme-socialproofsection.pages.dev)
 
 ## My process
